@@ -1,0 +1,220 @@
+ *{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    nav{
+       
+      display: flex;
+      justify-content: space-evenly;
+      text-decoration: none;
+    
+      background-color: bisque;
+      border-radius: 20px;
+    
+       position: fixed;
+     height: 30px;
+    width: 99%;
+    }
+    .button{
+    box-shadow: 4px 8px 18px 0  rgb(139, 79, 1);
+      color:white;
+      background-color:  rgb(139, 79, 1);
+      border: 1px solid rgb(139, 79, 1);
+      font-size:large ;
+      border-radius: 10px;
+      height:35px;
+      width: 90px;
+    }
+.page1{
+  box-shadow: 4px 8px 18px 0 rgb(139, 79, 1);
+  height: 700px;
+  width: 90%;
+  padding-top: 60px;
+  margin: auto;
+  margin-top: 30px;
+   border:  1px solid black;
+   background-image: url(c2.jpg);
+   opacity: 0.8;
+    background-repeat: no-repeat;
+ color: rgb(255, 255, 255);
+  background-size: cover;
+  
+  border-radius: 50px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+    width: 100%;
+    margin-top: 20%;
+    }
+.mohan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.info{
+    display: flex;
+    justify-content: center;
+       text-align: center;
+       font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img1{
+    height: 50px;
+    margin-left: 35%;
+}
+.img2{
+    height: 50px;
+    margin-left: 2%;
+
+}
+/* page2  */
+.tx{
+  font-size: xx-large;
+  margin-top: 90px;
+  margin-left: 37%;
+}
+.box2{
+  display: flex;
+  justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+ background: linear-gradient(90deg,bisque,rgb(139, 79, 1),bisque );
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+    /* border:  1px solid black */
+}
+.card {
+  box-shadow: 4px 8px 18px 0 rgba(0, 0, 0, 0.2);
+  width: 200px;
+  height: 370px;
+  margin-top: -10;
+  margin: auto;
+  text-align: center;
+  background-color:bisque;
+  font-family: arial;
+ 
+  border-top: 20px;
+   border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+h1{ background-color:bisque;
+  font-size: x-large;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p{
+  text-align: center;
+  border-radius: 20px;
+  color: bisque;
+  width: 350px;
+  background-color: rgb(139, 79, 1);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+ 
+  background-color: bisque;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+  border-radius: 20px;
+  height: 200px;
+}
+img:hover{
+   transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:rgb(139, 79, 1);
+  text-align: center;
+  cursor: pointer;
+  width: 90%;
+  font-size: 14px;
+  border-radius: 20px;
+}
+.D{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.img{
+  display: flex;
+  justify-content: space-between;
+    margin: auto; 
+       background: linear-gradient(90deg,bisque,rgb(139, 79, 1),bisque);
+     border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+    /* border:  1px solid black */
+}
+/* page3 */
+.box3{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: 450px;
+   margin: auto;
+     background: linear-gradient(90deg,bisque,rgb(139, 79, 1),bisque );
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+.footer{
+  display:flex;
+  justify-content: space-evenly;
+  height: 300px;
+  width: 100%;
+     background:black;
+
+}
+.big{
+  height: 500px;
+  width: 90%;
+  margin: auto;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  border: 5px solid rgb(139, 79, 1);
+
+
+
+}
+.ia{
+  margin-left: 30px;
+  border-radius: 30px;
+height: 50px;
+width: 190px;
+}
+.t{
+   margin-top: 70px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.i0{
+  margin-top: 70px;
+}
+.i0:hover{
+  transform: scale(1);
+}
